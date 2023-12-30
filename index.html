@@ -1,11 +1,135 @@
-<!-- 1. BOOTSTRAP v4.0.0         CSS !-->
+<!DOCTYPE html>
+<html lang="en">
+<!--<html lang="en" manifest="/offline.appcache">-->
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="Dipanwita Thakur">
+	
+	<title>Dipanwita Thakur</title>
+
+	<!-- 1. BOOTSTRAP v4.0.0         CSS !-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <!-- 2. GOOGLE JQUERY JS v3.2.1  JS !-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <!-- 3. BOOTSTRAP v4.0.0         JS !-->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <style>
+      .blink {
+      animation: blinker 0.6s linear infinite;
+      }
+      @keyframes blinker {  
+      50% { opacity: 0; }
+      }
+      .blink-one {
+      animation: blinker-one 1s linear infinite;
+      }
+      @keyframes blinker-one {  
+      0% { opacity: 0; }
+      }
+      .blink-two {
+      animation: blinker-two 5s linear infinite;
+      }
+      @keyframes blinker-two {  
+      100% { opacity: 0; }
+      }
+      table, th, td {
+  		border: 1px solid white;
+  		border-collapse: collapse;
+	  }
+	   
+    </style>
+    
+  </head>
 
-<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <body>
+	<!--############## HEADER ############################################################## -->
+	<div class="container" >
+		<div class="row  page-header">
+			<div class="col-md-2">
+				<a href="images/self/DipanwitaThakur.jpg" target="_blank">
+					<img class="img-circle" src="images/self/image_Dipanwita.jpg" width="150" height="250" alt="">
+				</a>
+			</div>
+
+			<div class="col-md-4">
+				<h2><font color="maroon"><b>Dr. Dipanwita Thakur</b></font></h2>
+				<p class="h4" style="color:maroon"><b>
+					Assistant Professor</br> 
+				Department of Computer Engineering, Modeling, Electronics and Systems (DIMES) </br> 
+				University of Calabria, Italy</br>					 
+				</b></p>
+			</div>
+
+			<div class="col-md-6 navbar-wrapper">
+				<nav class="navbar  navbar-static-top" role="navigation" style="background-color: white; background-image: none;">
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"
+						style="background-color: #178ACC;">
+						<span class="sr-only" style="background-color: white;">Toggle navigation</span>
+						<span class="icon-bar" style="background-color: white;"></span>
+						<span class="icon-bar" style="background-color: white;"></span>
+						<span class="icon-bar" style="background-color: white;"></span>
+					  </button>						
+					</div>
+
+					<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home </a></li>
+						 
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-search"></span> Research <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+							<li><a href="research.html">Publications</a></li>
+							<li><a href="project.html">Projects</a></li>
+							</ul>
+					       </li>											    
+					    <li><a href="teaching.html"><span class="glyphicon glyphicon-pencil"></span> Teaching </a></li>	
+					    <li><a href="student.html"><span class="glyphicon glyphicon-edit"></span> Student</a></li>
+					    <li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+						
+						
+						
+						
+				 
+			</div>
+		</div>
+	</div>
+
+	<!--############## PAGE CONTENT ######################################################### -->
+
+	<div class="container">
+	
+		<!-- ====================== BIOGRAPHY and NEWS =============== -->
+		<div class="row active">
+			<div class="col-md-5">
+				<p class="bigger">
+					<b><font color="maroon">BIOGRAPHY::</font></b>
+				</p>
+				<p class="bigger" align="justify">
+					Dr. Dipawita Thakur is working as an Assistant Professor in the <a href="https://dimes.unical.it/" target="_blank"><font color="maroon">Department of Computer Engineering, Modeling, Electronics and Systems (DIMES)</font></a> at <a href="http://www.unical.it/" target="_blank"><font color="maroon">University of Calabria</font></a> since 2023. 
+				</p>
+
+				<p class="bigger" align="justify">				
+				Prior to this, she was an Assistant Professor in the Department of Computer Science at <a href="http://www.banasthali.org/" target="_blank"><font color="maroon">Banasthali University, Rajasthan</font></a>. She also worked as Technical Support Engineer in <a href="https://www.techmahindra.com/" target="_blank"><font color="maroon">TechMahindra, India</font></a>, and Project Tranee in <a href="https://www.cdac.in/" target="_blank"><font color="maroon">Centre for Development of Advance Computing (C-DAC), India</font></a>.
+				</p>
+
+				<p class="bigger" align="justify">								
+				She received her Ph.D. from <a href="https://makautwb.ac.in/" target="_blank"><font color="maroon">West Bengal University of Technology, Kolkata</font></a>. 
+				Her primary research interests are in the domain of <b>Smart healthcare using Machine Learning</b>, specifically
+				<em><b>Performance Evaluation of </b></em> and <em><b>Human Activity Recognition Systems</b></em>. 
+				She is the author of many scholarly research papers, including reputed journal papers, in the above mentioned areas.
+				</p>
+				
+				
+				 
+				
+			</div>
+			<!----------------NEWS--------------------------->
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item">
     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
   </li>
@@ -21,3 +145,384 @@
   <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"><p>ggg</p></div>
   <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"><p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p></div>
 </div>
+			<div class="col-md-7">
+			
+				<h4><font color="red"><b>News</b></font></h4>
+				<ul id="new-tabs" class="nav nav-tabs">
+					<li class="active"> <a href="#2023" data-toggle="tab">2023</a>	</li>
+					<li> 				<a href="#2022" data-toggle="tab">2022</a>	</li>
+					<li> 				<a href="#2021" data-toggle="tab">2021</a>	</li>
+					<li> 				<a href="#2020" data-toggle="tab">2020</a>	</li>
+					<li> 				<a href="#2019" data-toggle="tab">2019</a>	</li>
+					<li>				<a href="#2018" data-toggle="tab">2018</a>	</li> 
+					
+				</ul>
+					    
+				<div id="news-tab-content" class="tab-content">
+				
+					<div class="tab-pane active fade in" id="2023"> 
+					<div class="news">
+				   	<ul id="ticker"> 
+				   		
+				   		
+						
+						<div class="col-md-12">
+						<li><h5>November</h5>
+						&starf;<font color="red">Paper accepted <em>in ACM Transaction on Computing for Healthcare</em>, 2023.</font>	
+						</br>
+					</li>
+					<li><h5>October</h5>
+						&starf;<font color="red">Paper accepted <em>in 21st IEEE International Conference on Pervasive Intelligence and Computing (PICom 2023)</em>, Abu Dhabi with Dr. Antonella Guzzo and Prof. Giancarlo Fortino.</font>	
+						</br>
+					</li>	
+					<li><h5>August</h5>
+						&starf;<font color="red">Paper accepted <em>in 24th International Conference on Information Reuse and Integration for Data Science (IRI)</em>, Bellevue, WA, USA.</font>	
+						</br>
+					</li>	
+						<li><h5>July</h5>
+						&starf;Joined <font color="red">as an Assistant Professor at DIMES Department, University of Calabria (Italy).</font>. 	
+						</br>
+						</li>						
+						<li><h5>July</h5>
+							&starf;<font color="red">Paper accepted in <em>IEEE Internet of Things Journal</em> with Dr. Antonella Guzzo and Prof. Giancarlo Fortino.</font>. 	
+							</br></li>
+						</div>
+							
+						   									
+					</ul>
+				   	</div>
+					</div>
+					
+					<div class="tab-pane fade" id="2022"> 
+					<div class="news">
+				   	<ul id="ticker"> 
+						<div class="col-md-12">
+						<li><h5>August</h5>
+							Paper with <b>Dr. Suparna Biswas</b> published in <b>Journal of Network and Computer Applications, Elsevier</b>.	
+							</li>
+				   		<li><h5>July</h5>
+						Full book chapter with <b>Dr. Suparna Biswas</b> published in <b>CRC Press</b>
+						<br><br>
+						Full book chapter with <b>Dr. Suparna Biswas</b> and <b>Dr. Arindam Pal</b> published in Internet of Things Based Smart Healthcare. Smart Computing and Intelligence. Springer, Singapore
+						</li>	
+						<li><h5>June</h5>
+							Paper with <b>Dr. Suparna Biswas</b> published in <b>IEEE Transactions on Human-Machine Systems</b>.	
+							</li>
+						
+				   		<li><h5>May</h5>
+						Paper with <b>Dr. Suparna Biswas</b> accepted in <b>IEEE Sensors Journal</b>	
+						
+						</li>				   		
+				   			
+						<li><h5>January</h5>
+						Paper with <b>Dr. Suparna Biswas</b>, <b>Dr. Edmond SL Ho</b>, <b>Prof. Samiran Chattopadhyay</b> published in <b>IEEE Access</b>.
+						
+						
+						</li>	</div>   									
+					</ul>
+				   	</div>
+					</div>
+					
+					<div class="tab-pane fade" id="2021"> 
+					<div class="news">
+				   	<ul id="ticker"> 
+				   		<li><h5>November</h5>
+						Paper with <b>Dr. Suparna Biswas</b> accepted in Proceedings of the 2nd International Conference on Recent Trends in Machine Learning, IoT, Smart Cities and Applications (ICMISC) 2021.</b>							
+						</li>
+                        <li><h5>September</h5>
+						  Paper with <b>Dr. Antonella Guzzo</b>	and <b>Prof. Giancarlo Fortino</b>accepted in proceedings of the <b>IEEE 2nd International Conference on Human-Machine Systems (ICHMS) 2021</b>.
+						</li>
+
+						<li><h5>July</h5>
+							Paper with <b>Dr. Suparna Biswas</b> accepted in Proceedings of the <b>International Conference on Emerging Technologies in Data Mining and Information Security IEMIS 2020</b>.
+						</li>
+						<li><h5>May</h5>
+							<p>Paper with <b>Dr. Suparna Biswas</b> accepted in <b>International Journal of Information Technology, Springer</b></p>
+						</li>
+
+						<li><h5>April</h5>
+							<p>Paper with <b>Dr. Suparna Biswas</b> accepted in Proceedings of the 2nd International Conference on Data Science
+							and Applications (ICDSA 2021)</b></p>							
+							</li>
+				   			   									
+					</ul>
+				   	</div>
+					</div>
+					
+					<div class="tab-pane fade" id="2020"> 
+					<div class="news">
+				   	<ul id="ticker"> 
+				   		<li><h5>March</h5>
+						<p>Paper with <b>Dr. Manas Khatua</b> accepted in <b>Journal of Network and Computer Applications </b>(Elsevier)</p>
+						<br><br>
+						<p>Paper with <b>Dr. Suparna Biswas</b> accepted in <b>Journal of Ambient Intelligence and Humanized Computing</b>(Springer)</p>
+					    </li>
+                        <li><h5>July</h5>
+                         <p>Paper with <b>Richa</b> accepted in proceeding<b> 2nd International Conference on Intelligent Computing, Instrumentation and Control Technologies : ICICICT-2019</b></p>
+						</li>
+				   						   									
+					</ul>
+				   	</div>
+					</div>
+										
+					<div class="tab-pane fade" id="2019"> 
+					<div class="news">
+				   	<ul id="ticker">
+				   		<li><h5>November</h5>
+						<p>Paper accepted in proceeding of <b>4th International Conference on Information Systems and Computer Networks (ISCON)</b>IEEE 2029</p>
+						</li>
+				   		 							   									
+					</ul>
+				   	</div>
+					</div>
+					
+					<div class="tab-pane fade" id="2018"> 
+					<div class="news">
+				   	<ul id="ticker">
+				   			
+				   		<li><h5>January</h5>
+						<p>vSDN-CLA accepted in <b><a href="http://www.nitttrchd.ac.in/sitenew1/icccn_2018/" target="_blank">Proc. of ICCCN 2018</a></b></p>
+						</li>					   									
+					</ul>
+				   	</div>
+					</div>
+					
+</div>
+									
+
+
+					
+					  		   	
+				</div>
+			</div>	
+			<!----------------------------->
+		</div> <!--close of class="row"-->
+		
+	<!-- ======================== Research Interests / Publications / Groups ========================================= -->
+		<hr>
+		<div class="row active myblackfont">
+		
+			<div class="col-md-4">
+				<h4><b><font color="maroon">Research Interests</font></b></h4>
+				<p><ul><font color="blue">
+					<li> Smart Healthcare</li>
+					<li> Machine Learning</li>
+					<li> Federated Learning</li>					
+					<li> Internet of Things</li>									
+					<li> Software Defined Networking</li>
+					
+				</font></ul></p>
+				
+			</div>			
+				
+			
+			<div class="col-md-4" >
+				
+				<h4><b><font color="maroon" >My Research Works</font></b></h4>
+				<a href="images/research/framework.png" target="_blank">
+				<img src="images/research/framework.png" style="height: 140px" alt="ResearchGroup">
+				<br/><div class="caption" align="left"><font color="black">My Present Research Wroks</font></div><br/>
+				</a>				 
+			</div>	
+			<div class="col-md-4">
+				<h4><b><font color="blue">Green federated Learning</font> <br><font color="maroon"></font></b></h4>
+				
+				<a href="images/research/gfl.png" target="_blank">
+				<img src="images/research/gfl.png" style="height: 150px" alt="gfl">
+				<br/><div class="caption" align="left"><font color="black">Federated Learning Framework</font></div><br/>
+				</a>
+			</div>
+				
+			
+	<!-- =========================== Work Experience ========================================================== -->
+		<hr>
+		<div class="row active myblackfont">
+		
+			<div class="col-md-6">
+				<h4><b><font color="maroon">Work Experience</font></b></h4>
+				<ul>
+					<li>Present: Assistant Professor, Dept. of CE, University of Calabria, Italy</li>
+					<li>2008-2023: Assistant Professor, Dept. of CS, Banasthali Vidyapith (Deemed to be University), Rajasthan, India</li>
+					<li>2007-2008: Technical Support Engineer, Netgear Process, India</li>
+					<li>2006-20007: Project Trainee, AAI Group, C-DAC, Pune, India</li>
+					
+				</font> 
+			</div>
+			<div class="col-md-6">
+				<h4><b><font color="maroon">Education</font></b></h4>
+				<ul>
+					<li>Ph.D. (Smart Healthcare) from MAKAUT (Formerly known as WBUT), Kolkata, India</li>
+					<li>M.Tech. (SE) from Banasthali Vidyapith (Deemed to be University), Rajasthan, India</li>
+					<li>MCA  from NIELIT, Govt. of India</li>
+					<li>B.Sc. from University of Calcutta (India)</li>
+
+				</ul>
+			</div>	
+					
+		</div>		
+		
+		<!-- ======================== Guest Lectures ========================================= -->
+		<hr>
+		<div class="row active myblackfont">
+			<div class="col-md-12">			
+				
+				<h4><b><font color="maroon">Professional Certification</font></b></h4>
+				<ul>
+					<li>NPTEL-AICTE certification course in <font color="blue">Internet of Things</font>.
+												
+						</li>
+					<li>NPTEL-AICTE certification course in <font color="blue">programming in C++</font>.
+					</li>
+					<li>
+						NPTEL-AICTE certification course in <font color="blue">Discrete Structures</font>.
+					</li>
+					<li>
+                        NPTEL-AICTE certification course in <font color="blue">Machine Learning</font>.
+					</li>
+					<li>
+                        NPTEL-AICTE certification course in <font color="blue">Deep Learning</font>.
+					</li>
+					<li>
+                        Coursera certification course of <font color="blue">Specialization in Deep Learning</font>.
+					</li>
+					<li>
+                        Coursera certification course in <font color="blue">Machine Learning</font>.
+					</li>
+					<li>
+					edX certification course in <font color="blue">Python in Research</font>.
+					</li>
+				</ul>	
+								
+			</div>
+
+		</div>
+		
+<!-- ======================== Academic & Administrative Responsibilities ========================================= -->
+		<hr>
+		<div class="row active myblackfont">
+			<div class="col-md-12">							
+				
+				<h4><b><font color="maroon">Academic & Administrative Responsibilities</font></b></h4>
+				<ul>
+					<li>July 2009-2015: Course coordinator for M.Tech., Banasthali Vidyapith, Rajasthan, India </li>
+					<li>January 2015: Project coordinator for B.Tech. Banasthali Vidyapith, Rajasthan, India</li>
+					<li>January 2018: Project coordinator for B.Tech. Banasthali Vidyapith, Rajasthan, India</li>
+					<li>January 2019: Project coordinator for B.Tech. Banasthali Vidyapith, Rajasthan, India</li>
+					<li>July 2019: Seminar coordinator for B.Tech. Banasthali Vidyapith, Rajasthan, India</li>
+					<li>July 2023: Seminar coordinator for M.Tech. (AI) 2023 batch, Banasthali Vidyapith, Rajasthan, India</li>
+					<li>March 2023: Online course development on Compiler Design, Banasthali Vidyapith, Rajasthan, India</li>  
+					<li>April 2023: Online course development on Discrete Mathematics, Banasthali Vidyapith, Rajasthan, India</li>  
+					<li>July 2022: Course coordinator for M.Tech (CS) 2022 batch, Banasthali Vidyapith, Rajasthan, India</li>  
+					<li>July 2022: Seminar coordinator for B.Tech. (CS) 2021 batch, Banasthali Vidyapith, Rajasthan, India</li>
+					<li>July 2022: <a href="https://www.vde-verlag.de/buecher/vorwort/9783800760411_VORWORT_01.pdf" target="_blank">Organizing Committee Member of 2nd International Conference on Health Big Data and
+						Smart Sports (HBDSS 2022), held during November 18th-20th, 2022 in Xiamen, China</a></li>
+				</ul>
+												
+			</div>
+		</div>
+		
+	<!-- ======================== Awards / TPC / Reviewer ========================================= -->
+		<hr>
+		<div class="row active myblackfont">
+			<div class="col-md-6">			
+				
+				<h4><b><font color="maroon">Awards</font></b></h4>
+				<ul>
+					<li>
+						<p>Dr. B.C. Roy Memorial Scholarship for outstanding results in  Madhyamik Pariksha (10th Board), 1992.</p>
+					</li>
+					<li>
+						<p>Student Science Seminar, Organized by Department of Sports & Youth Services, Govt. of West Bengal, 1990.</p>
+					</li>
+   
+				</ul>
+				
+				
+				
+				<h4><b><font color="maroon">Professional Membership</font></b></h4>
+				<ul>
+					<!--li> ACM student member (May'12 &mdash; April'15)</li-->
+					<!-- ACM member ID(ID:8993630)-->
+					
+					<li> IEEE Member since January 2017 (ID:91199065)</li>
+					<li> ACM Member since October 2015 (ID:5193906)</li>					
+				</ul>
+				
+					
+				
+				<h4><b><font color="maroon">TPC Member</font></b></h4>
+				<ul>
+					<li>2023: <a href="https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3580305" target="_blank">29th ACM SIGKDD Conference on Knowledge Discovery & Data Mining, August 6-10, 2023, Long Beach, California, US</a>.
+					</li>
+					<li> 2022: <a href="https://www.mirlabs.org/isda22/committees.php" target="_blank">22nd  International Conference on Intelligent Systems Design and Applications, 2021, Machine Intelligence Research Labs: Auburn, WA, US</a>.
+
+					</li>
+					<li> 2022: <a href="https://www.mirlabs.org/isda22/committees.php" target="_blank">21st  International Conference on Intelligent Systems Design and Applications, 2021, Machine Intelligence Research Labs: Auburn, WA, US</a>.
+
+					</li>
+					<li>
+						2022: 3rd International Conference on Data Science and Applications (ICDSA 2022), Kolkata, India.
+					</li>
+					<li>
+						2021: International Conference on Mobile Networks and Wireless Communication (ICMNWC 2021), Tumkur, India.
+					</li>
+					<li>
+						2020: International Workshop on Fair and Interpretable Learning Algorithm, IEEE BigData 2020, Atlanta, Georgia, US.
+					</li>
+					<li>
+						2020: IEEE International Workshop on Data Analytics for Smart Health, IEEE BigData 2020, Atlanta, GA, US.
+					</li>
+					
+				</ul>
+				
+				
+								
+			</div>
+			<div class="col-md-6">
+				<h4><b><font color="maroon">Reviewer</font></b></h4>
+				<ul>
+					<li> IEEE Transactions Human-Machine Systems	</li>
+					<li> IEEE Internet of Things Journal </li>
+					<li> IEEE Access Journal </li>
+					<li> IEEE Sensors Journal </li>
+					<li> Journal of Network and Computer Applications (Elsevier) </li>
+					<li> Information Fusion (Elsevier) </li>					
+					<li> Engineering Applications of Artificial Intelligence (Elsevier) </li>
+					<li> Journal of Ambient Intelligence and Humanized Computing (Springer)</li>
+				</ul>
+				
+				
+				
+			</div>
+			
+		</div>
+		
+
+
+
+	<!--################# FOOTER ############################################################## -->
+    <footer>
+		<div class="container" style="margin-top: 10px; padding-top: 10px;
+			padding-bottom: 10px; border-top: 1px solid #178ACC;">
+			<div class="row">
+
+				<div class="col-md-8">
+					  <p>&copy; 2022-23 Dipanwita Thakur. All rights reserved. <em>This website was last updated on: November, 2023</em>.</p>
+				</div>
+
+				<div class="col-md-4">
+					<p class="pull-right"><a href="#">Back to top</a></p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="lib/bootstrap-3.1.1/js/bootstrap.min.js"></script>
+	<!--script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script-->
+  </body>
+</html>
+
+
+
